@@ -1,0 +1,9 @@
+table{
+	width: 80%;
+	margin: 3em 0 2em 4em;
+}
+
+
+th, td{
+	text-align: center;
+}

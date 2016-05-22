@@ -1,0 +1,112 @@
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);*/
+
+@font-face {
+    font-family: 'graviolaregular';
+    src: url('Fuentes/graviola_regular_macroman/Graviola-Regular-webfont.eot');
+    src: url('Fuentes/graviola_regular_macroman/Graviola-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fuentes/graviola_regular_macroman/Graviola-Regular-webfont.woff2') format('woff2'),
+         url('Fuentes/graviola_regular_macroman/Graviola-Regular-webfont.woff') format('woff'),
+         url('Fuentes/graviola_regular_macroman/Graviola-Regular-webfont.ttf') format('truetype'),
+         url('Fuentes/graviola_regular_macroman/Graviola-Regular-webfont.svg#graviolaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'graviolaregular', sans-serif;
+	font-size: 16px;
+	position: relative;
+	margin: 2em 5em 2em 5em;
+	max-width: 1200px;
+}
+
+button a{
+	color: black;
+	text-decoration: none;
+}
+
+h3,h2{
+	/*text-transform: uppercase;*/
+	margin-bottom: 1.5em;
+}
+
+.central-Cabecera{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cabecera-Imagen{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.cabecera-Imagen img{
+	width: 15%;
+	transition: 1s;
+}
+
+.cabecera-Imagen img:hover{
+	transform: rotate(360deg);
+}
+
+.central-Navegador{
+	margin-top: 2em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-size: 22px;
+	position: relative;
+}
+
+.navegador-Lista{
+	list-style: none;
+	margin: 0 0;
+	text-align: center;
+}
+
+.navegador-Lista li{
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1.5em;
+	vertical-align: top;
+}
+
+.navegador-Lista li a{
+	color: black;
+	display: block;
+	padding: 0.5em;
+	border-radius: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: 0.3s;
+}
+
+.navegador-Lista li a:hover{
+	background: #C0C0C0;
+}
+
+.central-Seccion{
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	position: relative;
+	padding: 1em 0 3em 2em;
+	margin-top: 3em;
+}
+
+.central-Pie{
+	margin-top: 5em;	
+}
+
+.pie-CuadroInformativo{
+	width: 30%;
+	float: left;
+}
+
+.pie-Copyright{
+	width: 30%;
+	float: right;
+}
+
+#seccionPie{
+	margin-bottom: 3em;
+	padding: 0.5em 2em 1.5em 2em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+}
